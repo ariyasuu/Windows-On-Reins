@@ -33,7 +33,7 @@ $beAeroPeekSafe = 0
 # 1 = Enable it to Windows deafaults.
 # Note: Top priority configuration, overrides other settings.
 
-$beThumbnailSafe = 0
+$beThumbnailSafe = 
 # 0 = Disable Windows Thumbnails. *Recomended.
 # 1 = Enable it to Windows deafaults.
 # Note: Refers to the use of thumbnails instead of icon to some files.
@@ -70,12 +70,12 @@ $telemetry = 0
 # Note: Microsoft uses telemetry to periodically collect information about Windows systems. It is possible to acquire information as the computer hardware serial number, the connection records for external storage devices, and traces of executed processes.
 # Note: This tweak may cause Enterprise edition to stop receiving Windows updates.
 
-$disableSMBServer = 1
+$disableSMBServer = 0
 # 0 = Enable SMB Server. 
 # 1 = Disable it. *Recomended.
 # Note: SMB Server is used for file and printer sharing.
 
-$disablelastaccess = 1
+$disablelastaccess = 0
 # 0 = Enable it.
 # 1 = Disable last file access date. *Recomended.
 
@@ -99,7 +99,7 @@ $disableSystemRestore = 1
 # 0 = Enable system restore
 # 1 = Disable system restore. *Recomended.
 
-$firefoxSettings = 1
+$firefoxSettings = 0
 # 0 = Keep Firefox settings unchanged.
 # 1 = Apply my Firefox settings. *Recomended.
 
@@ -118,7 +118,7 @@ $bloatwareList = @(
 	# Maybe userful AppX       
 	#"*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
 	#"*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
-	#"*Microsoft.BingWeather*"
+	"*Microsoft.BingWeather*"
 	#"*Microsoft.MSPaint*"
 	#"*Microsoft.MicrosoftStickyNotes*"
 	#"*Microsoft.Windows.Photos*"
